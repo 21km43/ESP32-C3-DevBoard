@@ -1,6 +1,6 @@
 # ESP32-C3-DevBoard
 
-ESP32-C3の開発ボード。USB CDCを利用して書き込む。部品表にはESP32のみ入っていないので注意すること。ESP32-C3のモジュールについてはESP32-C3-WROOMを使用している。モジュールは秋月電子などで購入可能である。  
+ESP32-C3の開発ボード。USB CDCを利用して書き込む。部品表にはESP32-C3が入っていないので注意すること。ESP32-C3のモジュールについてはESP32-C3-WROOMを使用している。モジュールは秋月電子などで購入可能である。  
 [秋月電子](https://akizukidenshi.com/catalog/g/gM-17493/)  
 [DigiKey](https://www.digikey.jp/ja/products/detail/espressif-systems/ESP32-C3-WROOM-02-N4/14553031)
 
