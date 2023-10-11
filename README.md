@@ -8,5 +8,5 @@ ESP32-C3の開発ボード。USB CDCを利用して書き込む。部品表に�
 
 なお、Espressif Libraryのインストールを前提としているので注意（プラグイン＆コンテンツマネージャーからインストール可能）。
 
-## 画像（ESP32-C3未実装の場合）
-![image](https://github.com/21km43/ESP32-C3-DevBoard/assets/48169975/91520f45-c7fb-483c-8c1c-abc10c23f116)
+## 完成図
+![image](https://github.com/21km43/ESP32-C3-DevBoard/assets/48169975/48d36edc-b33a-422d-b00c-6302e283e484)
