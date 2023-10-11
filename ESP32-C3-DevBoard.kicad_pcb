@@ -324,7 +324,7 @@
       (net 8 "GND") (pinfunction "SHIELD") (pintype "passive") (tstamp 3c480477-1c72-4870-8168-69241ed72145))
     (pad "S1" thru_hole oval (at 4.32 1.075) (size 1 1.6) (drill oval 0.6 1.2) (layers "*.Cu" "*.Mask")
       (net 8 "GND") (pinfunction "SHIELD") (pintype "passive") (tstamp 87af2042-269e-4a52-b1e6-951cf50de1b4))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_XKB_U262-16XN-4BVC11.wrl"
+    (model "${KICAD7_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -403,10 +403,10 @@
       (net 8 "GND") (pinfunction "2") (pintype "passive") (tstamp 9a27ef6c-a9be-4eae-8b02-11eabe326dfc))
     (pad "2" smd rect (at 2.075 1.075 90) (size 1.05 0.65) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 8 "GND") (pinfunction "2") (pintype "passive") (tstamp 7cdc2458-0738-4ce0-b201-886056990adf))
-    (model "${KICAD6_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_PTS810.wrl"
+    (model "${KIPRJMOD}/3d/PTS810.STEP"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -482,10 +482,10 @@
       (net 8 "GND") (pinfunction "2") (pintype "passive") (tstamp 557bb73a-7182-4d86-b042-1e905dfb2bca))
     (pad "2" smd rect (at 2.075 1.075 90) (size 1.05 0.65) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 8 "GND") (pinfunction "2") (pintype "passive") (tstamp 409ad295-e561-4f46-b3ee-98f5f297f347))
-    (model "${KICAD6_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_PTS810.wrl"
+    (model "${KIPRJMOD}/3d/PTS810.STEP"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 0))
     )
   )
 

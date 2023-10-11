@@ -1518,7 +1518,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 236.22 97.79 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 36c240ba-7828-45e5-98ec-08409668bba8)
     (property "Reference" "#PWR018" (at 229.87 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1532,7 +1532,7 @@
     (property "Datasheet" "" (at 236.22 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ae0df762-dd85-4eb5-8060-909ab5c75810))
+    (pin "1" (uuid 948ac00c-dcbd-46e1-b644-aa9518f151f1))
     (instances
       (project "ESP32-C3-DevBoard"
         (path "/a7bd77f5-8524-422b-aae0-98a46d8f8d84"
@@ -1699,7 +1699,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 207.01 97.79 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 72033f1f-e047-4752-bf00-f134fc3bf988)
     (property "Reference" "#PWR07" (at 200.66 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1713,7 +1713,7 @@
     (property "Datasheet" "" (at 207.01 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bee956df-540f-46c4-8a1a-f46cb7deb696))
+    (pin "1" (uuid 529a606b-d8c2-4122-9d00-ade4a8b905ab))
     (instances
       (project "ESP32-C3-DevBoard"
         (path "/a7bd77f5-8524-422b-aae0-98a46d8f8d84"
