@@ -6,7 +6,7 @@
 
   (title_block
     (title "ESP32-C3 Development Board")
-    (rev "v1.0.0")
+    (rev "v1.0.1")
   )
 
   (lib_symbols
@@ -1896,7 +1896,7 @@
     (property "Reference" "H1" (at 201.93 121.92 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "MountingHole" (at 201.93 124.46 0)
+    (property "Value" "ToolingHole" (at 201.93 124.46 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "MountingHole:MountingHole_2.2mm_M2" (at 199.39 123.19 0)
@@ -2517,7 +2517,7 @@
     (property "Reference" "H1" (at 201.93 129.54 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "MountingHole" (at 201.93 132.08 0)
+    (property "Value" "ToolingHole" (at 201.93 132.08 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "MountingHole:MountingHole_2.2mm_M2" (at 199.39 130.81 0)
