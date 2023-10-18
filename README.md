@@ -8,5 +8,7 @@ ESP32-C3の開発ボード。USB CDC（内臓USBシリアル）を利用して�
 
 ちなみにEspressif Libraryのインストールを前提としている（プラグイン＆コンテンツマネージャーからインストール可能）。
 
+ガーバーファイル、BOM、CPLはpruductionフォルダに置いてあります。
+
 ## 完成図
 ![image](/ESP32-C3-DevBoard.png)
