@@ -1,6 +1,6 @@
 # ESP32-C3-DevBoard
 
-ESP32-C3の開発ボード。USB CDC（内臓USBシリアル）を利用して書き込む。ESP32-C3のモジュールについてはESP32-C3-WROOMを使用している。モジュールは秋月電子などで購入可能である。  
+ESP32-C3の開発ボード。USB CDC（内臓USBシリアル）を利用して書き込む。ESP32-C3のモジュールについてはESP32-C3-WROOM-02を使用している。モジュールは秋月電子などで購入可能。  
 [秋月電子](https://akizukidenshi.com/catalog/g/gM-17493/)  
 [DigiKey](https://www.digikey.jp/ja/products/detail/espressif-systems/ESP32-C3-WROOM-02-N4/14553031)
 
