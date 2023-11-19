@@ -6,9 +6,9 @@ ESP32-C3の開発ボード。USB CDC（内臓USBシリアル）を利用して�
 
 なお、基板発注、ESP32以外の部品実装に関しては、JLCPCBに発注することを想定している。ただし、ESP32-C3-WROOM-02に関してはStandard PCBAでしか実装してくれないので、Economic PCBAで発注するならばこの部品は実装しないように注意。
 
-ちなみにEspressif Libraryのインストールを前提としている（プラグイン＆コンテンツマネージャーからインストール可能）。
+Espressif Libraryのインストールを前提としている（プラグイン＆コンテンツマネージャーからインストール可能）。
 
-ガーバーファイル、BOM、CPLはpruductionフォルダに置いてあります。
+ガーバーファイル、BOM、CPLはpruductionフォルダに置いてある。
 
 ## 完成図
 ![image](/ESP32-C3-DevBoard.png)
