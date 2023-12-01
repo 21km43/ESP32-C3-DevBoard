@@ -57,13 +57,13 @@
         }
       ],
       "drc_exclusions": [
-        "hole_clearance|143150000|118825000|cde7d4dd-b218-4627-bc08-1f662a37e190|5d43d8de-3be6-4737-9a0e-c884499deab3",
-        "hole_clearance|143350000|118825000|cde7d4dd-b218-4627-bc08-1f662a37e190|0c00a79b-9532-4d60-8dfc-b821a4343bcd",
-        "hole_clearance|148750000|118825000|5dab269b-fc2a-4776-b9d3-9061d939b9c4|55319c68-f00a-4f77-b6c4-e38649f02cdb",
-        "hole_clearance|148950000|118825000|5dab269b-fc2a-4776-b9d3-9061d939b9c4|2050b2f4-a6e8-444a-8929-073a9a0b4721",
+        "hole_clearance|143150000|117555000|5d43d8de-3be6-4737-9a0e-c884499deab3|cde7d4dd-b218-4627-bc08-1f662a37e190",
+        "hole_clearance|143350000|117555000|0c00a79b-9532-4d60-8dfc-b821a4343bcd|cde7d4dd-b218-4627-bc08-1f662a37e190",
+        "hole_clearance|148750000|117555000|55319c68-f00a-4f77-b6c4-e38649f02cdb|5dab269b-fc2a-4776-b9d3-9061d939b9c4",
+        "hole_clearance|148950000|117555000|2050b2f4-a6e8-444a-8929-073a9a0b4721|5dab269b-fc2a-4776-b9d3-9061d939b9c4",
         "silk_edge_clearance|137079800|97790000|fb9a6de7-5d5b-4fe4-9dfe-12bdd32c0d52|314066a7-10f8-4c0f-bb1a-c835c78fb4b7",
-        "silk_edge_clearance|141470000|124460000|fb9a6de7-5d5b-4fe4-9dfe-12bdd32c0d52|1b654450-2d09-41e9-add2-a6b89ca31c7e",
-        "silk_edge_clearance|150630000|124460000|fb9a6de7-5d5b-4fe4-9dfe-12bdd32c0d52|8ea09de3-741d-43d9-871a-f6bef8ced8a8",
+        "silk_edge_clearance|141470000|123825000|fb9a6de7-5d5b-4fe4-9dfe-12bdd32c0d52|1b654450-2d09-41e9-add2-a6b89ca31c7e",
+        "silk_edge_clearance|150630000|123825000|fb9a6de7-5d5b-4fe4-9dfe-12bdd32c0d52|8ea09de3-741d-43d9-871a-f6bef8ced8a8",
         "silk_edge_clearance|155079800|97790000|fb9a6de7-5d5b-4fe4-9dfe-12bdd32c0d52|e1528797-ca34-4371-9afb-900d2440d931"
       ],
       "meta": {
@@ -107,7 +107,7 @@
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
-        "text_height": "warning",
+        "text_height": "ignore",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
