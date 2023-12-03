@@ -1775,7 +1775,7 @@
     (property "LCSC" "C841192" (at 71.12 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLCPCB Rotation Offset" "-180" (at 71.12 152.4 0)
+    (property "JLCPCB Rotation Offset" "-90" (at 71.12 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 56e26113-242e-4b3f-840f-5ec87e278ea0))
