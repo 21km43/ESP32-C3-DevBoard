@@ -927,7 +927,7 @@
     (descr "SOT, 5 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "JLCPCB Rotation Offset" "-180")
-    (property "LCSC" "C2959864")
+    (property "LCSC" "C841192")
     (property "Sheetfile" "ESP32-C3-DevBoard.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "300mA low dropout linear regulator, shutdown pin, 3.3V fixed positive output, SOT-23-5")
