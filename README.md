@@ -14,7 +14,7 @@ Gerber, bom and cpl is placed on [production folder](/production) directory and 
 * Upload method: USB-CDC (Do not use GPIO 18 and 19 when downloading)
 * USB: Type-C
 * Regulator: [RT9080-33GJ5](https://www.richtek.com/Products/Linear%20Regulator/Single%20Output%20Linear%20Regulator/RT9080?sc_lang=en).
-* External input voltage range: 4.3~6.5V (4.5V~5.5V is recommended)
+* External input voltage range: 4.3-6.5V (4.5V-5.5V is recommended)
 * Power consumption (in deep sleep): 7-9µF (ESP32-C3: 5µF, RT9080-33GJ5: 2-4µF)
 
 ### Solder Jumpers
