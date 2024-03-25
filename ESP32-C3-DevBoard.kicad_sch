@@ -6802,6 +6802,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2765186"
+			(at 64.77 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" "0, 1.27"
+			(at 64.77 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A8"
 			(uuid "6103c96c-7aa4-4c4b-902f-38434b532e02")
 		)
