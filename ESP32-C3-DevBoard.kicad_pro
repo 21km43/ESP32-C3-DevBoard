@@ -500,7 +500,7 @@
       "specctra_dsn": "",
       "step": "ESP32-C3-DevBoard.step",
       "svg": "",
-      "vrml": ""
+      "vrml": "ESP32-C3-DevBoard.wrl"
     },
     "page_layout_descr_file": ""
   },
