@@ -31,3 +31,4 @@ fp-info-cache
 # Fabrication-Toolkit
 production/backups
 !production/*.csv
+fabrication-toolkit-options.json
