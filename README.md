@@ -18,7 +18,7 @@ Gerber, bom and cpl is placed on [production folder](/production) directory and 
 * Power consumption (in deep sleep): 7-9µF (ESP32-C3: 5µF, RT9080-33GJ5: 2-4µF)
 
 ### Solder Jumpers
-* 5V -> 3.3V jumper (Default: connected): Connection of the external power supply terminal (5 V pin) to the power input terminal to the ESP32-C3. Disconnect when suppressing regulator quiescent current.
+* 5V -> 3.3V jumper (Default: connected): Connection of the external power supply terminal (5V pin) to the power input terminal to the ESP32-C3. Disconnect when suppressing regulator quiescent current.
 * VBUS = 5V jumper (Default: not connected): Connecting this disables the protective SBD between USB and external power supply. To eliminate the voltage drop due to SBD and output the voltage input from USB as it is to 5 V, connect this jumper.
 
 ## BOM
