@@ -5990,14 +5990,13 @@
 		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 1 copper strip")
 		(tags "net tie solder jumper bridged")
 		(property "Reference" "JP2"
-			(at 0 1.8 0)
+			(at 0 1.905 0)
 			(layer "B.SilkS")
-			(hide yes)
 			(uuid "a69b48ad-4b57-410e-8a2f-a6b70b0db3c5")
 			(effects
 				(font
-					(size 0.8 0.8)
-					(thickness 0.15)
+					(size 1 1)
+					(thickness 0.2)
 				)
 				(justify mirror)
 			)
@@ -6713,14 +6712,13 @@
 		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP1"
-			(at 0 1.8 0)
+			(at 0 1.905 0)
 			(layer "B.SilkS")
-			(hide yes)
 			(uuid "49b27407-f942-44d7-8117-9e4f3e3bbdd1")
 			(effects
 				(font
-					(size 0.8 0.8)
-					(thickness 0.15)
+					(size 1 1)
+					(thickness 0.2)
 				)
 				(justify mirror)
 			)
@@ -7018,30 +7016,6 @@
 		(fill none)
 		(layer "Edge.Cuts")
 		(uuid "fb9a6de7-5d5b-4fe4-9dfe-12bdd32c0d52")
-	)
-	(gr_text "VBUS=5V"
-		(at 150.495 111.76 0)
-		(layer "B.SilkS")
-		(uuid "e7d2d2e6-a090-4ee8-8835-341e55cf4d14")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.15)
-			)
-			(justify mirror)
-		)
-	)
-	(gr_text "5V→3V3"
-		(at 141.605 111.76 0)
-		(layer "B.SilkS")
-		(uuid "efc49fd4-30bb-4314-aef2-77d53311b8fa")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.15)
-			)
-			(justify mirror)
-		)
 	)
 	(gr_text "10"
 		(at 157.48 118.7958 0)
