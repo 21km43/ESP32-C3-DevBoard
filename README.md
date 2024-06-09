@@ -15,11 +15,11 @@ Gerber, bom and cpl is placed on [production folder](/production) directory and 
 * USB: Type-C
 * Regulator: [RT9080-33GJ5](https://www.richtek.com/Products/Linear%20Regulator/Single%20Output%20Linear%20Regulator/RT9080?sc_lang=en).
 * External input voltage range: 4.3-6.5V (4.5V-5.5V is recommended)
-* Power consumption (in deep sleep): 7-9µF (ESP32-C3: 5µF, RT9080-33GJ5: 2-4µF)
+* Power consumption (in deep sleep): 11.5µA (ESP32-C3: 5µA, RT9080-33GJ5: 6.5µA)
 
 ### Solder Jumpers
-* 5V -> 3.3V jumper (Default: connected): Connection of the external power supply terminal (5V pin) to the power input terminal to the ESP32-C3. Disconnect when suppressing regulator quiescent current.
-* VBUS = 5V jumper (Default: not connected): Connecting this disables the protective SBD between USB and external power supply. To eliminate the voltage drop due to SBD and output the voltage input from USB as it is to 5 V, connect this jumper.
+* JP1 ... VBUS = 5V jumper (Default: not connected): Connecting this disables the protective SBD between USB and external power supply. To eliminate the voltage drop due to SBD and output the voltage input from USB as it is to 5 V, connect this jumper. Note that shorting this pin will increase current consumption by about 0.1mA due to the pull-down resistor on the CC pin.
+* JP2 ... 5V -> 3.3V jumper (Default: connected): Connection of the external power supply terminal (5V pin) to the power input terminal to the ESP32-C3. Disconnect when suppressing regulator quiescent current.
 
 ## BOM
 [BOM](/production/bom.csv)
