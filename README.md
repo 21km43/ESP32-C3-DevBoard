@@ -6,7 +6,7 @@ You can get ESP32-C3-WROOM-02 from here.
 * [DigiKey](https://www.digikey.jp/ja/products/detail/espressif-systems/ESP32-C3-WROOM-02-N4/14553031)
 * [Mouser](https://www.mouser.jp/ProductDetail/Espressif-Systems/ESP32-C3-WROOM-02-N4?qs=stqOd1AaK7%2FqjTZKEOgfUg%3D%3D)
 
-Orders can be placed by uploading data(gerber, bom, and cpl) to the JLCPCB. (Take note that ESP32-C3-WROOM-02 is not assembled for Economic PCBA.)  
+Orders can be placed by uploading data(Gerber, BOM, and CPL) to the JLCPCB. 
 This project uses [Espressif Library for KiCAD](https://github.com/espressif/kicad-libraries). (It is available on Plugin & Contents manager.)  
 Gerber, bom and cpl is placed on [production folder](/production) directory and Release. 
 
