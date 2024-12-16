@@ -1,5 +1,5 @@
 # ESP32-C3-DevBoard
-ESP32-C3 Development Board. This project uses [KiCAD](https://KiCAD.org)
+ESP32-C3 Development Board. Made with [KiCAD 8.0](https://KiCAD.org)
 
 You can get ESP32-C3-WROOM-02 from here.  
 * [秋月電子](https://akizukidenshi.com/catalog/g/gM-17493/)  
@@ -18,7 +18,7 @@ Gerber, bom and cpl is placed on [production folder](/production) directory and 
 * Power consumption (in deep sleep): 11.5µA (ESP32-C3: 5µA, RT9080-33GJ5: 6.5µA)
 
 ### Solder Jumpers
-* JP1 ... VBUS = 5V jumper (Default: not connected): Connecting this disables the protective SBD between USB and external power supply. To eliminate the voltage drop due to SBD and output the voltage input from USB as it is to 5 V, connect this jumper. Note that shorting this pin will increase current consumption by about 0.1mA due to the pull-down resistor on the CC pin.
+* JP1 ... VBUS = 5V jumper (Default: not connected): Connecting this disables the protective SBD between USB and external power supply. To eliminate the voltage drop due to SBD and output the voltage input from USB as it is to 5V, connect this jumper. Note that shorting this pin will increase current consumption by about 0.1mA due to the pull-down resistor on the CC pin.
 * JP2 ... 5V -> 3.3V jumper (Default: connected): Connection of the external power supply terminal (5V pin) to the power input terminal to the ESP32-C3. Disconnect when suppressing regulator quiescent current.
 
 ## BOM
