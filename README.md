@@ -26,7 +26,8 @@ Gerber, bom and cpl is placed on [production folder](/production) directory and 
 
 ### Notice
 
-When using Fabrication-Toolkit, Please check "Apply automatic translations" options.
+When using Fabrication-Toolkit, Please check "Apply automatic translations" option.
 
 ## 3D image
 ![image](/ESP32-C3-DevBoard.png)
+
