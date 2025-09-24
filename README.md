@@ -1,5 +1,5 @@
 # ESP32-C3-DevBoard
-ESP32-C3 Development Board. Made with [KiCAD 8.0](https://KiCAD.org)
+ESP32-C3 Development Board. Made with [KiCAD 9.0](https://KiCAD.org)
 
 You can get ESP32-C3-WROOM-02 from here.  
 * [秋月電子](https://akizukidenshi.com/catalog/g/gM-17493/)  
@@ -23,6 +23,10 @@ Gerber, bom and cpl is placed on [production folder](/production) directory and 
 
 ## BOM
 [BOM](/production/bom.csv)
+
+### Notice
+
+When using Fabrication-Toolkit, Please check "Apply automatic translations" options.
 
 ## 3D image
 ![image](/ESP32-C3-DevBoard.png)
