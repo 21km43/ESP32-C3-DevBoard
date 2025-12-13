@@ -5202,7 +5202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.diodes.com/_files/datasheets/AP131.pdf"
+		(property "Datasheet" "https://www.richtek.com/SaveDownload.aspx?specid=RT9080"
 			(at 68.58 142.24 0)
 			(effects
 				(font
@@ -5211,7 +5211,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "300mA low dropout linear regulator, shutdown pin, 3.3V fixed positive output, SOT-23-5"
+		(property "Description" "600mA low dropout linear regulator, shutdown pin, 3.3V fixed positive output, SOT-23-5"
 			(at 68.58 142.24 0)
 			(effects
 				(font
