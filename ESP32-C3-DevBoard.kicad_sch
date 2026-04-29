@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "ESP32-C3 Development Board")
-		(rev "v1.1.1")
+		(rev "v1.1.2")
 	)
 	(lib_symbols
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
@@ -4837,7 +4837,7 @@
 			(at 83.82 55.88 90)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -4868,7 +4868,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25905"
+		(property "LCSC Part #" "C25905"
 			(at 83.82 55.88 90)
 			(effects
 				(font
@@ -5942,7 +5942,7 @@
 			(at 83.82 58.42 90)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -5973,7 +5973,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25905"
+		(property "LCSC Part #" "C25905"
 			(at 83.82 58.42 90)
 			(effects
 				(font
