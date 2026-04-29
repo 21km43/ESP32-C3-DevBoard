@@ -2574,7 +2574,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25905"
+		(property "LCSC Part #" "C25905"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5238,7 +5238,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25905"
+		(property "LCSC Part #" "C25905"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
