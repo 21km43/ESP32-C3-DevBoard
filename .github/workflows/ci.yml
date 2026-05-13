@@ -1,0 +1,35 @@
+name: Fabrication Toolkit
+
+on:
+  push:
+
+jobs:
+
+  generate-fabrication-files:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Install KiCad
+        run: |
+          sudo add-apt-repository --yes ppa:kicad/kicad-9.0-releases
+          sudo apt update
+          sudo apt install --install-recommends kicad
+      
+      - name: Clone Fabrication Toolkit
+        run: |
+          git clone https://github.com/bennymeg/Fabrication-Toolkit.git
+
+      - name: Run Fabrication Toolkit CLI
+        run: |
+          cd Fabrication-Toolkit
+          python3 -m plugins.cli -p ../WCH-LinkE-Mini.kicad_pcb --autoTranslate --autoFill
+          cd ..
+        
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: production
+          path: ./production
